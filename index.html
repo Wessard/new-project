@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue Cinema</title>
+    <link rel="icon" href="favicon.svg" type="image/svg">
+    <link rel="stylesheet" href="style/all.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header header_pos">
+            <div class="advertise advertise_style">
+                <span class="advertise__icon icon"></span>
+                <span class="advertise__text">See no special offer restrictions</span>
+            </div>
+            <div class="nav-wrapper nav-wrapper_bg">
+                <div class="container">
+                    <input type="checkbox" id="menu-check">
+                    <label for="menu-check" class="icon menu-bars">
+                        
+                    </label>
+                    <nav class="header__nav">
+                        <a href="#" class="header__logo">
+                            <img src="img/logo.png" alt="" class="header__logo-img">
+                            <span class="header__logo-text">CINEMAS</span>
+                        </a>
+                        <ul class="header__list">
+                            <li class="header__list-item">
+                                <a href="#films" class="header__link">Films</a>
+                            </li>
+                            <li class="header__list-item">
+                                <a href="#series" class="header__link">Serials</a>
+                            </li>
+                            <li class="header__list-item">
+                                <a href="#" class="header__link">Cartoons</a>
+                            </li>
+                            <li class="header__list-item">
+                                <a href="#collections" class="header__link">Collections</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div class="intro intro_size">
+            <img src="img/intro-img.png" alt="" class="intro__img">
+            <div class="intro__content">
+                <div class="container">
+                    <h1 class="intro__title">Kong: Skull Island</h1>
+                    <p class="intro__desc">The film takes the viewer to the 70s of the last century. The protagonist
+                        organizes an expedition to the Skull island, always covered in fog, on which King Kong was once
+                        caught to find the missing brother and some mysterious substance. During...</p>
+                    <div class="intro__btns">
+                        <a href="#" class="btn">Watch now</a>
+                        <a href="#" class="btn">Download</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <main class="main">
+            <section class="films films_pad">
+                <div class="container">
+                    <h2 class="films__title main_title" id="films">films</h2>
+                    <div class="films__catalog">
+                        <div class="films__catalog-card">
+                            <img src="img/card-film1.jpg" alt="" class="films__catalog-img">
+                            <section class="films__catalog-content">
+                                <a href="#" class="films__catalog-link">
+                                    <i class="fad fa-play"></i>
+                                </a>
+                                <span class="films__catalog-duration">2:14:33</span>
+                                <h3 class="films__catalog-title">Black Panther</h3>
+                                <p class="films__catalog-desc">At first glance, you can decide that Wakanda is an ordinary territory of wild Africa, but this is not so. Here, in the bowels of the desert lands, there are hidden deposits of a unique metal capable of absorbing...</p>
+                            </section>
+                        </div>
+                        <div class="films__catalog-card">
+                            <img src="img/card-film2.png" alt="" class="films__catalog-img">
+                            <section class="films__catalog-content">
+                                <a href="#" class="films__catalog-link">
+                                    <i class="fad fa-play"></i>
+                                </a>
+                                <span class="films__catalog-duration">2:32:13</span>
+                                <h3 class="films__catalog-title">The Dark Knight </h3>
+                                <p class="films__catalog-desc">Batman raises stakes in the war on crime. With the help of Lieutenant Jim Gordon and Attorney Harvey Dent, he intends to clear the streets of crime that is poisoning the city. The cooperation is effective, but soon they...</p>
+                            </section>
+                        </div>
+                        <div class="films__catalog-card">
+                            <img src="img/card-film3.jpg" alt="" class="films__catalog-img">
+                            <section class="films__catalog-content">
+                                <a href="#" class="films__catalog-link">
+                                    <i class="fad fa-play"></i>
+                                </a>
+                                <span class="films__catalog-duration">1:53:45</span>
+                                <h3 class="films__catalog-title">The Gentlemen</h3>
+                                <p class="films__catalog-desc">One cunning American, from his student years, had been selling drugs, and now he came up with a scheme of illegal enrichment using the estates of an impoverished English aristocracy and made a very good fortune on ...</p>
+                            </section>
+                        </div>
+                        <div class="films__catalog-card">
+                            <img src="img/card-img4.jpg" alt="" class="films__catalog-img">
+                            <section class="films__catalog-content">
+                                <a href="#" class="films__catalog-link">
+                                    <i class="fad fa-play"></i>
+                                </a>
+                                <span class="films__catalog-duration">2:58:20</span>
+                                <h3 class="films__catalog-title">The Lord of the...</h3>
+                                <p class="films__catalog-desc">Tales of Middle-earth is a chronicle of the Great War for the Ring, a war that lasted more than one thousand years. The one who owned the Ring received power over all living creatures, but was obliged to serve evil...</p>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="trailer trailer_pos">
+                <video src="videos/Marvel Studios' Black Widow _ Final Trailer.mp4" class="trailer__video" autoplay loop muted></video>
+                <div class="container">
+                    <div class="trailer__content">
+                        <div class="trailer__wrap">
+                            <img src="img/trailer-img.png" alt="" class="trailer__wrap-img">
+                        </div>
+                        <p class="trailer__desc">After the events at the Leipzig-Halle airport, Natasha was overtaken by the mistakes of the past. The Red Room again made itself felt - a program to create Widows - professional killers and spies - just like her. Natasha decides once and for all to deal with people whose efforts she herself became a Widow.</p>
+                        <a href="#" class="trailer__btn btn">Watch now</a>
+                    </div>
+                </div>
+            </section>
+            <section class="collections collections_pad">
+                <div class="container">
+                    <h2 class="collections__title main_title" id="collections">Collections</h2>
+                    <div class="collections__wrap">
+                        <div class="collections__card">
+                            <a href="#" class="collections__link">
+                                <i class="fad fa-play collections__icon"></i>
+                                <span class="collections__span">All Marvel Films</span>
+                            </a>
+                        </div>
+                        <div class="collections__card">
+                            <a href="#" class="collections__link">
+                                <i class="fad fa-play collections__icon"></i>
+                                <span class="collections__span">All Marvel Films</span>
+                            </a>
+                        </div>
+                        <div class="collections__card">
+                            <a href="#" class="collections__link">
+                                <i class="fad fa-play collections__icon"></i>
+                                <span class="collections__span">All Marvel Films</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="series series_pad">
+                <div class="container">
+                    <h2 class="series__title main_title" id="series">Series</h2>
+                    <div class="series__wrap">
+                        <div class="series__wide">
+                            <h3 class="series__wide-title">Game of Thrones</h3>
+                            <p class="series__wide-excerpt">The time of prosperity is drawing to a close, and the summer, which lasted almost a decade, is dying away. Around the center of power of the Seven Kingdoms, the Iron Throne, a conspiracy is ripening, and during this difficult time, the king decides to seek support from his youth friend Eddard Stark. In a world where everyone - from the king to the mercenary - is eager for power, intrigues and is ready to stick a knife in the back, there is ...</p>
+                            <a href="#" class="btn series__wide-button">Watch now</a>
+                        </div>
+                        <div class="series__tiny">
+                            <a href="#" class="series__link">
+                                <i class="fad fa-play series__icon"></i>
+                                <span class="series__span">Wanda Vision</span>
+                            </a>
+                        </div>
+                        <div class="series__small">
+                            <a href="#" class="series__link">
+                                <i class="fad fa-play series__icon"></i>
+                                <span class="series__span">The Flash</span>
+                            </a>
+                        </div>
+                        <div class="series__small">
+                            <a href="#" class="series__link">
+                                <i class="fad fa-play series__icon"></i>
+                                <span class="series__span">The Great</span>
+                            </a>
+                        </div>
+                        <div class="series__small">
+                            <a href="#" class="series__link">
+                                <i class="fad fa-play series__icon"></i>
+                                <span class="series__span">GOTHAM</span>
+                            </a>
+                        </div>
+                        <div class="series__small">
+                            <a href="#" class="series__link">
+                                <i class="fad fa-play series__icon"></i>
+                                <span class="series__span">The witcher</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer_bg">
+                <div class="container">
+                    <div class="footer__wrap">
+                        <div class="footer__store">
+                            <a href="#" class="footer__store-google">
+                                <img src="img/google-icon.svg" alt="" class="footer__store-img">
+                            </a>
+                            <a href="#" class="footer__store-apple">
+                                <img src="img/apple-icon.svg" alt="" class="footer__store-img">
+                            </a>
+                        </div>
+                        <span class="footer__info">© PROWEB. В целях обучения 2021</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
